@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/grupo">
+
+        <RadioButton
+            android:text="Hombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbHombre"
+            android:textStyle="normal|bold"
+            android:textAllCaps="true"
+            android:checked="true" />
+
+        <RadioButton
+            android:text="Mujer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdbMujer"
+            android:textAllCaps="true"
+            android:textStyle="normal|bold" />
+    </RadioGroup>
+
+    <CheckBox
+        android:text="Comer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkOpcion1" />
+
+    <CheckBox
+        android:text="Beber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkOpcion2" />
+
+    <CheckBox
+        android:text="Bailar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkOpcion3" />
+
+    <CheckBox
+        android:text="Deporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkOpcion4" />
+
+    <Button
+        android:text="Aceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnGustos" />
+</LinearLayout>
